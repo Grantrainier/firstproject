@@ -4,20 +4,47 @@ html, body{
 }
 header{
 	background-color: #1affff;
-	padding: 90px;
+	background-image: url('../img/starwars.jpg');
+	background-repeat: repeat;
+	padding: 40px;
 	text-align: center;
 }
 
 h1{
+	text-align: center;
 	font-size: 90px;
-	color: white;
+	margin: inherit;
+	text-shadow: 0 4px 20px #91c2ff;
+	color: #ffffcc;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	text-shadow: 0 4px 20px black;
+	color: brown;
+
+}
+p.content{
+	margin: 20px auto;
+	display: inline;
+	background-color: #e6b8a3;
+	text-align: center;
+}
+ol, ul{
+	list-style: none;
+	padding: 0;
+	margin: 20px auto: 40px;
+	max-width: 600px;
+	display: round;
+	background-color: #e6b8a3;
 }
 
 header img{
-	    border-radius: 167px;
-    width: 300px;
-    height: 300px;
-    border: 5px solid #ff471a;
+	   border-radius: 180px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid #990033;
+    box-shadow: 0 10px 20px #91c2ff;
 }
 
 .content{
@@ -28,12 +55,18 @@ header img{
 
 img.big-image{
 	max-width: 100%;
+	border-radius: 180px;
 }
 
 p.caption{
-	font-size: 16px;
-	color: purple;
-	font-size: italic;
+	font-size: 30px;
+	color: white;
+	font-style: italic;
+	background-color: #bf2640;
+	text-align:center;
+	padding: 10px;
+	margin-top:10px;
+	text-decoration: none;
 }
 
 ul{
@@ -45,6 +78,7 @@ ul{
 a{
 	color: brown;
 	text-decoration: none;
+	text-align: center;
 }
 footer{
 	margin-top: 20px;
@@ -54,6 +88,7 @@ footer{
 
 footer ul{
 	text-align: center;
+	text-decoration: none;
 }
 
 footer ul li{
