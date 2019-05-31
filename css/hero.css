@@ -6,7 +6,7 @@ header{
 	background-color: #1affff;
 	background-image: url('../Img/starwars.png');
 	background-repeat: repeat;
-	padding: 40px;
+	padding: 70px;
 	text-align: center;
 }
 
@@ -25,18 +25,29 @@ h2{
 
 }
 p.content{
-	margin: 20px auto;
-	display: inline;
-	background-color: #e6b8a3;
-	text-align: center;
+display: table;
+    background-color: #e6b8a3;
+    outline: -webkit-focus-ring-color auto 10px;
+    outline-color: lightskyblue;
+    background: cyan;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-family: auto;
+    width: 0px;
+    max-width: 900px;
+	margin:0 auto;
+	padding: 0 20px;
 }
-ol, ul{
-	list-style: none;
-	padding: 0;
-	margin: 20px auto: 40px;
-	max-width: 600px;
-	display: round;
-	background-color: #e6b8a3;
+ol li{
+    list-style: none;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    display: table-cell;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+    text-decoration-style: wavy;
 }
 
 header img{
@@ -47,15 +58,19 @@ header img{
     box-shadow: 0 10px 20px #91c2ff;
 }
 
-.content{
-	max-width: 900px;
-	margin:0 auto;
-	padding: 0 20px;
-}
-
 img.big-image{
 	max-width: 100%;
 	border-radius: 180px;
+}
+.Chewy{
+	outline: -webkit-focus-ring-color auto 10px;
+    outline-color: lightskyblue;
+    background: cyan;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    margin: 4px;
+    font-family: auto;
 }
 
 p.caption{
@@ -69,15 +84,19 @@ p.caption{
 	text-decoration: none;
 }
 
-ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+ul li{
+	    list-style: none;
+    padding: inherit;
+    margin: 0;
+    list-style-position: inside;
+    list-style-type: gurmukhi;
+    overflow: auto;
+
 }
 
 a{
 	color: brown;
-	text-decoration: none;
+	text-decoration: initial;
 	text-align: center;
 }
 footer{
